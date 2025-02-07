@@ -2,12 +2,11 @@ import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "../styles/globals.css";
 
-const robotoSans = Roboto({
-  variable: "--font-roboto-sans",
+const fontSans = Roboto({
+  variable: "--font-primary-sans",
   weight: ["300", "400", "500", "700"],
   subsets: ["latin"],
 });
-
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -21,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${robotoSans.variable} bg-gray-100 text-gray-900`}>
+      <body className={`${fontSans.variable} bg-gray-100 text-gray-900`}>
         {children}
       </body>
     </html>
