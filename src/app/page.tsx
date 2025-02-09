@@ -2,6 +2,7 @@ import {
   About,
   Blogs,
   Brands,
+  CustomerService,
   Footer,
   GetInTouch,
   Header,
@@ -22,7 +23,7 @@ export default function Home() {
         <About />
         <Services />
         <WhyUs />
-        <Hero />
+        <CustomerService />
         <Pricing />
         <Testimonials />
         <GetInTouch />

@@ -9,3 +9,4 @@ export { default as Testimonials } from "./Testimonials";
 export { default as GetInTouch } from "./GetInTouch";
 export { default as Blogs } from "./Blogs";
 export { default as Footer } from "./Footer";
+export { default as CustomerService } from "./CustomerService";

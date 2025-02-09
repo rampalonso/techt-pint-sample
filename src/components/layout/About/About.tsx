@@ -6,7 +6,7 @@ const About = () => {
     <section className="mt-8">
       <div className="flex flex-row items-center relative">
         <div className="bg-zinc-100 rounded-2xl p-10 w-7/10 pr-92">
-          <p className="text-2xl text-lime-300 font-semibold">About us</p>
+          <p className="text-2xl text-primary font-semibold">About us</p>
           <h2 className="text-5xl font-medium mt-4 leading-14">
             We&apos;ll Take Technology To Where It&apos;s Never Been Before
           </h2>
