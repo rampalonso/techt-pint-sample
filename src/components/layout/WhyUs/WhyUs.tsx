@@ -32,7 +32,7 @@ const WhyUs = () => {
             </div>
           </div>
         </div>
-        <div className="w-3/10 flex items-center">
+        <div className="w-3/10 flex items-center justify-center">
           <span className="block h-64 w-64 rounded-full bg-primary"></span>
         </div>
       </div>
