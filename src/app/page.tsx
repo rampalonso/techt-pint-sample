@@ -28,8 +28,8 @@ export default function Home() {
         <Testimonials />
         <GetInTouch />
         <Blogs />
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }
